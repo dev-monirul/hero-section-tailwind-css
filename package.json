@@ -1,0 +1,14 @@
+{
+  "name": "quickstart-pack-tailwind-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./dist/style.css --watch"
+  },
+  "author": "Monirul",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
